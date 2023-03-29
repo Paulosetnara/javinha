@@ -5,11 +5,11 @@ public class Onibus extends Veiculos{
     
     public Onibus (String placa, int ano, int assentos){
         super(placa, ano);
-        setAssentos(assentos);
+        this.assentos = assentos;
     }
 
     public void exibirDados(){
-        System.out.println("\nDados do Onibus:\n" + "Placa:\n" + this.getPlaca() + "ano:\n" + this.getAno() + "Assentos:\n" + this.getAssentos());
+        System.out.println("\nDados do Onibus:\n" + "Placa:" + this.getPlaca() + "\nano:" + this.getAno() + "\nAssentos:" + this.getAssentos());
     }
 
     public Integer getAssentos() {

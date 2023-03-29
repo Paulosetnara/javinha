@@ -14,7 +14,7 @@ public class Agenda {
 
     public void imprimePessoa(int ID){
         ID -= 1;
-	System.out.println("Dados do cadastrado: ");
+	    System.out.println("Dados do cadastrado: ");
         System.out.println("Nome: " + agenda[ID].getNome());
         System.out.println("Número: " + agenda[ID].getNumero());
         System.out.println("ID: " + agenda[ID].getID());

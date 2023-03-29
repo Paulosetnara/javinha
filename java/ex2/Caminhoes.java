@@ -4,11 +4,11 @@ public class Caminhoes extends Veiculos {
 
     public Caminhoes (String placa, int ano, int eixos){
         super(placa, ano);
-        this.eixos= eixos;
+        this.eixos = eixos;
     }
 
     public void exibirDados(){
-        System.out.println("\nDados do Caminhoes:\n" + "Placa:\n" + this.getPlaca() + "ano:\n" + this.getAno() + "Eixos:\n" + this.getEixos());
+        System.out.println("\nDados do Caminhoes:" + "\nPlaca:" + this.getPlaca() + "\nano:" + this.getAno() + "\nEixos:" + this.getEixos());
     }
     
     public Integer getEixos() {

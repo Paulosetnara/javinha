@@ -7,7 +7,7 @@ public class Veiculos {
 
    public Veiculos(String placa, int ano){
     this.placa = placa;
-    setAno(getAno());
+    this.ano = ano;
    }
 
    public void exibirDados(){
